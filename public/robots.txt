@@ -1,0 +1,29 @@
+
+# Tax Savvy India - SEO-optimized robots.txt
+User-agent: *
+Allow: /
+
+# Allow all major search engines with specific directives
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Yandexbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Allow social media crawlers for better social sharing
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Sitemap location
+Sitemap: https://taxprofessionals.in/sitemap.xml
